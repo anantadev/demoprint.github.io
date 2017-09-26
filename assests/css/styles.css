@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	background: #ddd;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.print-box{
+	width:794px; 
+	height:1122px;
+	margin: 0 auto;
+	/*background: linear-gradient(#ffffff,#f7f7f7);*/
+	background:#fff;
+	color: #333;
+}
+/*#box-1{
+	background: #f1c40f;
+}
+#box-2{
+	background: #1abc9c;
+}
+#box-3{
+	background: #9b59b6;
+}
+#box-4{
+	background: #e74c3c;
+}
+#box-5{
+	background: #12f34d;
+}*/
+.profile-head{
+	display: block;
+	overflow: auto;
+	padding:10px;
+}
+.profile-image{
+	width: 125px;
+	float: left;
+}
+.profile-image img{
+	width: 100%;
+    border-radius: 50%;
+}
+.profile-title{
+	float: left;
+	width: 450px;
+}
+.profile-title-name{
+	margin: 20px 10px 2px;
+    font-size: 45px;
+    font-weight: 300;
+}
+.profile-title-designation{
+	margin: 0 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+}
+.profile-summary{
+	display: block;
+	overflow: auto;
+	padding:10px;
+	margin-bottom: 25px;
+}
+.profile-summary-title{
+	font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.profile-summary-description{
+	font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+.section-title{
+	font-size: 25px;
+    font-weight: 300;
+    margin: 10px;
+}
+.profile-education{
+	display: block;
+	overflow: auto;
+	padding:10px;
+}
+.profile-education-card{
+	display: block;
+	overflow: auto;
+	margin-bottom:30px;
+}
+.profile-education-duration{
+	width: 100px;
+    float: left;
+}
+.profile-education-duration h4{
+	font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 5px solid #ffb613;
+}
+.profile-education-duration h4 span{}
+.profile-education-details{
+	float: left;
+    width: calc(100% - 100px);
+}
+.profile-education-course-name{
+	margin: 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.profile-education-college-name{
+	margin: 0 20px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+}
+.profile-education-description{
+	font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    margin: 0 20px;
+}
+.profile-experience{
+	display: block;
+    overflow: auto;
+    padding: 10px;
+}
+.profile-experience-card{
+	display: block;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.profile-experience-details{}
+.profile-experience-designation{
+    font-size: 18px;
+    font-weight: 400
+}
+.profile-experience-company{
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+}
+.profile-experience-duration{
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 10px;
+}
+.profile-experience-description{
+	font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+.card-title{
+	font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.profile-experience-project-card{
+	display: block;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.pe-project-title{
+	font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+	margin-bottom: 5px;
+    font-style: italic;
+}
+.pe-project-link{
+	font-size: 13px;
+    color: #0279d0;
+    font-weight: 500;
+}
+.pe-project-duration, .pe-project-team-size{
+	font-size: 13px;
+	font-weight: 500;
+    margin-left: 15px;
+	margin-bottom: 5px;
+}
+.pe-project-team-size{
+}
+.pe-project-description{
+	font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    margin: 0 15px;
+}
+.profile-skill{
+	display: block;
+    overflow: auto;
+    padding: 10px;
+}
+.pie-title-center {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 19%;
+}
+
+.pie-value {
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  height: 40px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -30px;
+  line-height: 40px;
+}
+.pie-skill{
+  display: block;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 500;
+  height: 40px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -10px;
+  line-height: 40px;
+}
+.profile-achievements{
+	display: block;
+    overflow: auto;
+    padding: 10px;
+}
+.pa-list{
+	
+}
+.pa-list li{
+	font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    margin: 0 15px;
+}
+.profile-qualities{
+	display: block;
+    overflow: auto;
+    padding: 10px;
+}
+.pq-list{
+	
+}
+.pq-list li{
+	font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    margin: 0 15px;
+}
+.profile-personal-details{
+	display: block;
+    overflow: auto;
+    padding: 10px;
+}
+.pd-description{
+	font-size: 15px;
+    font-weight: 400;
+    color: #666;
+}
+@media print {
+	body {-webkit-print-color-adjust: exact;}
+	.print-box{
+		width:21cm; 
+		height:29.7cm;
+		margin-bottom: .95cm;
+	}
+	/*#box-1{
+		background: #f1c40f !important;
+	}
+	#box-2{
+		background: #1abc9c !important;
+	}
+	#box-3{
+		background: #9b59b6 !important;
+	}
+	#box-4{
+		background: #e74c3c !important;
+	}
+	#box-5{
+		background: #12f34d !important;
+	}*/
+}
